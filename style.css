@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: linear-gradient(
+    90deg in oklch,
+    oklch(0% 0.5 287) 0%,
+    oklch(12% 0.44 356) 37% 37%,
+    oklch(88% 0.3 267 / 98%) 67% 67%,
+    oklch(83% 0.3 200) 80% 80%
+  );
+}
+header {
+  color: aliceblue;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* İMG VE DİĞERLERİ */
+main {
+  margin-top: 20px;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+div {
+  background-color: rgba(240, 248, 255, 0.521);
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+main img {
+  float: left;
+  width: 27%;
+  height: 100%;
+  margin-right: 5px;
+}
+main div img:hover {
+  width: 50%;
+  height: 100%;
+}
+h1 {
+  color: orange;
+}
+/* $BUTONLAR$ */
+button {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: coral;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+button:hover {
+  width: 130px;
+  height: 65px;
+}
